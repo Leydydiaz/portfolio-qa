@@ -1,69 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio QA Engineer – Leydy Diaz</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #1a237e;
-    }
-    a {
-      color: #1565c0;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .project {
-      background: #fff;
-      padding: 1rem;
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 0.5rem;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio QA - Leydy Díaz</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <h1>Portafolio QA Engineer – Leydy Diaz</h1>
-  <p>Soy una QA Engineer Junior con sólida formación técnica, experiencia práctica en proyectos reales y un compromiso firme con la calidad del software.</p>
+<body class="font-sans bg-white text-gray-800 p-6">
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold">Leydy Mayerly Díaz Martínez</h1>
+    <p class="text-lg">QA Engineer Junior</p>
+    <div class="mt-2">
+      <a href="mailto:lmdiazm1@gmail.com" class="text-blue-600 hover:underline">lmdiazm1@gmail.com</a> · 
+      <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a> · 
+      <a href="https://github.com/Leydydiaz" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
+    </div>
+  </header>
 
-  <h2>📂 Proyectos destacados</h2>
-  <div class="project">
-    <h3>🧪 Urban Routes – Pruebas Automatizadas</h3>
-    <p>Proyecto completo de automatización con Selenium y Pytest para simular el flujo de solicitud de taxi. Se implementaron pruebas E2E, captura de código por red (CDP), logs y validación de extras.</p>
-    <a href="https://github.com/Leydydiaz/urban-routes-qa" target="_blank">Ver en GitHub</a>
-  </div>
+  <section class="sobre-mi mb-8">
+    <h2 class="text-xl font-semibold mb-2">👩‍💻 Sobre mí</h2>
+    <p>
+      Soy QA Engineer Junior con formación en pruebas manuales y automatizadas. Me apasiona mejorar la calidad de los productos digitales y detectar errores antes de que lleguen a los usuarios. Busco un entorno de trabajo desafiante donde pueda crecer profesionalmente y contribuir con responsabilidad, curiosidad y trabajo en equipo.
+    </p>
+  </section>
 
-  <div class="project">
-    <h3>🔍 Urban Scooter – Pruebas Manuales y API</h3>
-    <p>Auditoría completa de accesibilidad, validaciones funcionales, análisis con DevTools, verificación de cookies y errores en consola. Además, pruebas de API realizadas desde Postman y código Python.</p>
-    <a href="https://github.com/Leydydiaz/urban-scooter-qa" target="_blank">Ver en GitHub</a>
-  </div>
+  <section class="proyectos mb-8">
+    <h2 class="text-xl font-semibold mb-2">🚀 Proyectos destacados</h2>
 
-  <h2>👩‍💻 Sobre mí</h2>
-  <p>Soy Leydy Diaz, profesional en formación como QA Engineer con una gran motivación por aprender y crecer en el mundo de la tecnología. Me destaco por mi disciplina, mi atención al detalle y mi habilidad para adaptarme rápidamente a nuevas herramientas y metodologías de testing.</p>
-  <p>He trabajado con Selenium, Pytest, Postman, DevTools y Jira, y me apasiona detectar errores críticos, proponer mejoras, y asegurar que los productos funcionen como se espera, tanto en frontend como backend.</p>
+    <div class="mb-4">
+      <h3 class="text-lg font-bold">🧪 Urban Routes - Pruebas automatizadas</h3>
+      <p>Proyecto de automatización end-to-end para el flujo completo de solicitud de taxi en la plataforma Urban Routes. Uso de Selenium, Python y DevTools para extraer códigos de confirmación.</p>
+      <a href="https://github.com/Leydydiaz/urban-routes-testing" target="_blank" class="text-blue-600 hover:underline">🔗 Ver en GitHub</a>
+    </div>
 
-  <h2>📬 Contacto</h2>
-  <ul>
-    <li>Email: <a href="mailto:lmdiazm1@gmail.com">lmdiazm1@gmail.com</a></li>
-    <li><a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank">LinkedIn</a></li>
-    <li><a href="https://github.com/Leydydiaz" target="_blank">GitHub</a></li>
-  </ul>
+    <div>
+      <h3 class="text-lg font-bold">📱 Urban Scooter - QA completo (API + Web + Mobile)</h3>
+      <p>Proyecto integral de testing manual y automatizado para el sistema de alquiler de scooters. Incluye validación de API, inspección con DevTools, pruebas en base de datos, reporte de errores en Jira, y pruebas en app móvil.</p>
+      <a href="https://github.com/Leydydiaz/urban-scooter-testing" target="_blank" class="text-blue-600 hover:underline">🔗 Ver en GitHub</a>
+    </div>
+  </section>
+
+  <section class="descargas mt-8">
+    <h2 class="text-xl font-semibold mb-2">📎 Documentos profesionales</h2>
+    <ul class="list-disc list-inside">
+      <li>
+        <a href="CV_Leydy_Diaz.pdf" target="_blank" class="text-blue-600 hover:underline">
+          📎 Descargar mi CV
+        </a>
+      </li>
+      <li>
+        <a href="Carta_Presentacion_Leydy.pdf" target="_blank" class="text-blue-600 hover:underline">
+          ✉️ Leer mi carta de presentación
+        </a>
+      </li>
+    </ul>
+  </section>
+
 </body>
 </html>
