@@ -4,58 +4,88 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio QA - Leydy Díaz</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a202c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #1a202c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-blue-900 text-white py-6">
-    <div class="container mx-auto px-4">
-      <h1 class="text-3xl font-bold">Leydy Mayerly Díaz Martínez</h1>
-      <p class="text-sm">QA Engineer Jr | Bogotá, Colombia</p>
-      <p class="text-sm">
-        📧 lmdiazm1@gmail.com ·
-        <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank" class="underline">LinkedIn</a> ·
-        <a href="https://github.com/Leydydiaz" target="_blank" class="underline">GitHub</a>
-      </p>
-    </div>
+<body>
+  <header>
+    <h1>Leydy Mayerly Díaz Martínez</h1>
+    <p>QA Engineer Jr | Bogotá, Colombia</p>
+    <p>
+      📧 lmdiazm1@gmail.com ·
+      <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank">LinkedIn</a> ·
+      <a href="https://github.com/Leydydiaz" target="_blank">GitHub</a>
+    </p>
   </header>
 
-  <main class="container mx-auto px-4 py-8">
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-4">👩‍💻 Sobre mí</h2>
-      <p>
-        QA Engineer Jr con sólida formación técnica y experiencia práctica en pruebas manuales, automatizadas, de API y de aplicaciones móviles. Apasionada por garantizar productos de alta calidad y en constante búsqueda de mejora continua. Me caracterizo por la responsabilidad, atención al detalle y trabajo en equipo.
-      </p>
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>QA Engineer Jr con formación técnica y experiencia práctica en pruebas manuales, automatizadas, de API y móviles. Me enfoco en la calidad del producto, el trabajo colaborativo y la mejora continua.</p>
     </section>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-4">🚀 Proyectos destacados</h2>
-      <ul class="list-disc pl-5 space-y-2">
-        <li><strong>Urban Routes:</strong> Automatización de pruebas E2E con Selenium y Java en una app de solicitud de taxis. Se automatizó el flujo completo de usuario, incluyendo autenticación y selección de extras.</li>
-        <li><strong>Urban Scooter:</strong> Validación de requisitos funcionales, API Testing con Postman y pruebas móviles en Android Studio. Se documentaron hallazgos en Jira y se elaboraron auditorías manuales.</li>
+    <section>
+      <h2>Proyectos destacados</h2>
+      <ul>
+        <li><strong>Urban Routes:</strong> Automatización con Selenium y Java. Flujo completo de solicitud de taxi.</li>
+        <li><strong>Urban Scooter:</strong> API Testing, validación de requisitos, pruebas móviles y documentación de bugs.</li>
       </ul>
     </section>
 
-    <section id="documentos" class="mb-8">
-      <h2 class="text-xl font-semibold mb-4">📎 Documentos Profesionales</h2>
-      <ul class="list-disc pl-5 space-y-2">
-        <li>
-          <a href="CV_Leydy_Diaz_Profesional.pdf" target="_blank" class="text-blue-600 hover:underline">📄 Descargar mi CV</a>
-        </li>
-        <li>
-          <a href="Carta_Presentacion_Leydy.pdf" target="_blank" class="text-blue-600 hover:underline">✉️ Leer mi carta de presentación</a>
-        </li>
-        <li>
-          <a href="Portafolio_QA_Leydy_Diaz.pdf" target="_blank" class="text-blue-600 hover:underline">📁 Ver mi portafolio de QA</a>
-        </li>
-        <li>
-          <a href="Informe_Auditoria_QA_Manual_NewTours.pdf" target="_blank" class="text-blue-600 hover:underline">🧾 Leer informe de auditoría QA (NewTours)</a>
-        </li>
+    <section>
+      <h2>📎 Documentos Profesionales</h2>
+      <ul>
+        <li><a href="CV_Leydy_Diaz_Profesional.pdf" target="_blank">📄 Descargar mi CV</a></li>
+        <li><a href="Carta_Presentacion_Leydy.pdf" target="_blank">✉️ Leer mi carta de presentación</a></li>
+        <li><a href="Portafolio_QA_Leydy_Diaz.pdf" target="_blank">📁 Ver mi portafolio de QA</a></li>
+        <li><a href="Informe_Auditoria_QA_Manual_NewTours.pdf" target="_blank">🧾 Informe de auditoría QA - NewTours</a></li>
       </ul>
     </section>
   </main>
 
-  <footer class="bg-blue-900 text-white text-center py-4">
-    <p class="text-sm">&copy; 2025 Leydy Díaz · Desarrollado con 💙 y dedicación QA</p>
+  <footer>
+    <p>&copy; 2025 Leydy Díaz · Portafolio QA Personal</p>
   </footer>
 </body>
 </html>
