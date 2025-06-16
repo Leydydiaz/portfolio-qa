@@ -2,122 +2,60 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portafolio QA | Leydy Diaz</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"/>
-  <style>
-    body {
-      font-family: 'Quicksand', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9fafb;
-      color: #111827;
-    }
-    header {
-      background-color: #111827;
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      color: #1f2937;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      margin-bottom: 0.75rem;
-    }
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .btn-links a {
-      display: inline-block;
-      margin-right: 1rem;
-      background-color: #2563eb;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 0.375rem;
-      text-decoration: none;
-    }
-    .btn-links a:hover {
-      background-color: #1e40af;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio QA - Leydy Díaz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" />
 </head>
-<body>
-  <header>
-    <h1>Leydy Diaz | QA Engineer Jr.</h1>
-    <p>Apasionada por la calidad del software, la automatización de pruebas y el aprendizaje constante.</p>
-    <div class="btn-links" style="margin-top: 1rem;">
-      <a href="CvLeydydiaz_1(2)(1) (2).pdf" target="_blank">📎 Descargar mi CV</a>
-      <a href="Documento sin título (1).pdf" target="_blank">✉️ Leer mi carta de presentación</a>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-900 text-white py-6">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold">Leydy Mayerly Díaz Martínez</h1>
+      <p class="text-sm">QA Engineer Jr | Bogotá, Colombia</p>
+      <p class="text-sm">
+        📧 lmdiazm1@gmail.com ·
+        <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank" class="underline">LinkedIn</a> ·
+        <a href="https://github.com/Leydydiaz" target="_blank" class="underline">GitHub</a>
+      </p>
     </div>
   </header>
 
-  <main>
-    <section id="sobre-mi">
-      <h2>👩‍💻 Sobre mí</h2>
-      <p>Soy Leydy Mayerly Diaz Martinez, QA Engineer Junior formada en el Bootcamp de Tripleten. Tengo experiencia en pruebas manuales, automatizadas, auditorías con DevTools y pruebas de API. Me enfoco en encontrar errores funcionales y mejorar la experiencia del usuario. Busco crecer profesionalmente en el mundo del QA con dedicación, ética y excelencia.</p>
+  <main class="container mx-auto px-4 py-8">
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">👩‍💻 Sobre mí</h2>
+      <p>
+        QA Engineer Jr con sólida formación técnica y experiencia práctica en pruebas manuales, automatizadas, de API y de aplicaciones móviles. Apasionada por garantizar productos de alta calidad y en constante búsqueda de mejora continua. Me caracterizo por la responsabilidad, atención al detalle y trabajo en equipo.
+      </p>
     </section>
 
-    <section id="proyectos">
-      <h2>🚀 Proyectos destacados</h2>
-      <ul>
-        <li>
-          <strong>Urban Routes</strong> – Automatización del flujo completo de solicitud de taxi.<br/>
-          <a href="https://github.com/Leydydiaz/urban-routes-qa" target="_blank">🔗 Ver en GitHub</a>
-        </li>
-        <li>
-          <strong>Urban Scooter</strong> – Pruebas manuales, API y base de datos sobre sistema de alquiler de scooters.<br/>
-          <a href="https://github.com/Leydydiaz/urban-scooter-qa" target="_blank">🔗 Ver en GitHub</a>
-        </li>
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">🚀 Proyectos destacados</h2>
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>Urban Routes:</strong> Automatización de pruebas E2E con Selenium y Java en una app de solicitud de taxis. Se automatizó el flujo completo de usuario, incluyendo autenticación y selección de extras.</li>
+        <li><strong>Urban Scooter:</strong> Validación de requisitos funcionales, API Testing con Postman y pruebas móviles en Android Studio. Se documentaron hallazgos en Jira y se elaboraron auditorías manuales.</li>
       </ul>
     </section>
 
-    <section id="informes">
-      <h2>📝 Informes de Auditoría QA</h2>
-      <ul>
+    <section id="documentos" class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">📎 Documentos Profesionales</h2>
+      <ul class="list-disc pl-5 space-y-2">
         <li>
-          <a href="Informe_Auditoria_QA_Manual_NewTours.pdf" target="_blank" rel="noopener noreferrer">
-            📄 Informe de Auditoría QA Manual - New Tours
-          </a>
+          <a href="CV_Leydy_Diaz_Profesional.pdf" target="_blank" class="text-blue-600 hover:underline">📄 Descargar mi CV</a>
         </li>
         <li>
-          <a href="Informe_Auditoria_QA_Mia.pdf" target="_blank" rel="noopener noreferrer">
-            🔍 Informe Técnico QA Manual y DevTools - New Tours
-          </a>
+          <a href="Carta_Presentacion_Leydy.pdf" target="_blank" class="text-blue-600 hover:underline">✉️ Leer mi carta de presentación</a>
         </li>
-      </ul>
-    </section>
-
-    <section id="contacto">
-      <h2>📬 Contacto</h2>
-      <ul>
-        <li>📧 <a href="mailto:lmdiazm1@gmail.com">lmdiazm1@gmail.com</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank">LinkedIn</a></li>
-        <li>🐙 <a href="https://github.com/Leydydiaz" target="_blank">GitHub</a></li>
+        <li>
+          <a href="Portafolio_QA_Leydy_Diaz.pdf" target="_blank" class="text-blue-600 hover:underline">📁 Ver mi portafolio de QA</a>
+        </li>
+        <li>
+          <a href="Informe_Auditoria_QA_Manual_NewTours.pdf" target="_blank" class="text-blue-600 hover:underline">🧾 Leer informe de auditoría QA (NewTours)</a>
+        </li>
       </ul>
     </section>
   </main>
+
+  <footer class="bg-blue-900 text-white text-center py-4">
+    <p class="text-sm">&copy; 2025 Leydy Díaz · Desarrollado con 💙 y dedicación QA</p>
+  </footer>
 </body>
 </html>
