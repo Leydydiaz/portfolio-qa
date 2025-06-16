@@ -1,97 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio QA - Leydy Diaz</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio QA | Leydy Diaz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
   <style>
     body {
       font-family: 'Quicksand', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f7f7f7;
+      background-color: #f9f9f9;
       color: #333;
     }
     header {
-      background-color: #0066cc;
-      color: #fff;
-      padding: 20px;
+      background-color: #333;
+      color: white;
+      padding: 2rem 1rem 1rem;
       text-align: center;
     }
-    main {
-      padding: 40px 20px;
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+    }
+    section {
+      padding: 2rem 1rem;
       max-width: 800px;
       margin: auto;
     }
-    section {
-      margin-bottom: 40px;
+    h2 {
+      color: #444;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3rem;
     }
-    h1, h2 {
-      margin-top: 0;
-    }
-    ul {
-      padding-left: 20px;
+    .project, .document {
+      margin-bottom: 1.5rem;
     }
     a {
-      color: #0066cc;
+      color: #007acc;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
-    .btn {
-      display: inline-block;
-      background-color: #0066cc;
-      color: #fff;
-      padding: 10px 20px;
-      margin-top: 10px;
+    .contact {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      margin-bottom: 2rem;
       border-radius: 5px;
-      text-decoration: none;
-    }
-    .btn:hover {
-      background-color: #004a99;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Portafolio QA - Leydy Diaz</h1>
-    <p>QA Engineer Jr | Bogotá, Colombia</p>
+    <h1>👩‍💻 Leydy Diaz | QA Engineer</h1>
+    <p>Portafolio profesional - Junio 2025</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Sobre mí</h2>
-      <p>Soy Leydy Mayerly Díaz, QA Engineer Junior formada en Tripleten, con experiencia en pruebas manuales y automatizadas, incluyendo pruebas API y móviles. Apasionada por la calidad del software, la mejora continua y el trabajo meticuloso que garantiza experiencias excepcionales para los usuarios.</p>
-    </section>
+  <section class="contact">
+    <h2>📬 Contacto</h2>
+    <p>📧 Email: <a href="mailto:lmdiazm1@gmail.com">lmdiazm1@gmail.com</a></p>
+    <p>🌐 LinkedIn: <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank">leydy-diaz-218b3931b</a></p>
+    <p>💻 GitHub: <a href="https://github.com/Leydydiaz" target="_blank">github.com/Leydydiaz</a></p>
+  </section>
 
-    <section>
-      <h2>Proyectos Destacados</h2>
-      <ul>
-        <li><strong>Urban Routes</strong>: Automatización del flujo de solicitud de taxi usando Selenium, pytest, espera explícita y captura de código vía DevTools Protocol.</li>
-        <li><strong>Urban Scooter</strong>: Auditoría QA completa de la app web y móvil, validando formularios, accesibilidad, logs, base de datos y API REST.</li>
-      </ul>
-    </section>
+  <section>
+    <h2>✅ Proyectos QA</h2>
 
-    <section>
-      <h2>Documentos</h2>
-      <ul>
-        <li>📎 <a href="CvLeydydiaz_1.pdf.pdf" target="_blank">Descargar mi CV</a></li>
-        <li>✉️ <a href="Carta_Presentacion_Leydy.pdf.pdf" target="_blank">Leer mi carta de presentación</a></li>
-        <li>📝 <a href="Portafolio_QA_Leydy_Diaz.pdf.pdf" target="_blank">Ver portafolio QA completo</a></li>
-        <li>🔍 <a href="Informe_Auditoria_QA_Manual_NewTours.pdf.pdf" target="_blank">Informe Auditoría QA - NewTours</a></li>
-      </ul>
-    </section>
+    <div class="project">
+      <h3>🛠️ Urban Routes – Pruebas automatizadas (Selenium + Pytest)</h3>
+      <p>Simulación de flujo completo de solicitud de taxi, incluyendo validaciones de campos, selección de tarifa y autenticación telefónica.</p>
+    </div>
 
-    <section>
-      <h2>Contacto</h2>
-      <ul>
-        <li>📧 <a href="mailto:lmdiazm1@gmail.com">lmdiazm1@gmail.com</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/leydy-diaz-218b3931b" target="_blank">LinkedIn</a></li>
-        <li>💻 <a href="https://github.com/Leydydiaz" target="_blank">GitHub</a></li>
-      </ul>
-    </section>
-  </main>
+    <div class="project">
+      <h3>🧪 Urban Scooter – Pruebas manuales y API testing</h3>
+      <p>Incluye auditoría de formularios, validación de endpoints con Postman y pruebas funcionales basadas en Figma. </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>📎 Documentos</h2>
+    <div class="document">
+      <p>📄 <a href="Carta_Presentacion_Leydy.pdf" target="_blank">Carta de Presentación</a></p>
+      <p>📄 <a href="CvLeydydiaz_1(2)(1)%20(2).pdf" target="_blank">Hoja de Vida (CV)</a></p>
+      <p>📋 <a href="Informe_Auditoria_QA_Manual_NewTours.pdf" target="_blank">Informe Auditoría NewTours</a></p>
+      <p>🗂️ <a href="Portafolio_QA_Leydy_Diaz.pdf" target="_blank">Portafolio QA Completo</a></p>
+    </div>
+  </section>
 </body>
 </html>
